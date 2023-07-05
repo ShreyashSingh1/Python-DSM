@@ -35,8 +35,3 @@ def test3(**kwargs):
     return kwargs
 
 print(test3(a=[2, 4, 4, 3], b="Shreyash"))
-
-
-
-
-

@@ -16,10 +16,13 @@ print(a[8:0:1])
 
 """In this case it takes positive indexing and no start/end index is given and direction is positive(jump)"""
 print(a[::1])
+
 """It will return an empty string"""
 print(a[2:7:-1])
+
 """It will throw error in case of indexing """
 # print(a[90])
+
 """It won't throw error  in case of slicing"""
 print(a[:-9000:-1])
 

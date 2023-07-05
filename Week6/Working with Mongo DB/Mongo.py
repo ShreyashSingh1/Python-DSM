@@ -19,11 +19,15 @@ client = pymongo.MongoClient(uri)
 The test database is a common default database used for testing and experimentation. 
 You can replace test with the name of the specific database you want to work with.
 After executing these lines, you can perform various operations on the db object,
-such as creating collections, inserting documents, querying data, and more."""
+such as creating collections, inserting documents, querying data, and more.
+
+The record you are storing is known as document in mongodb the keys are fields names
+"""
 
 # db = client.test
 db = client["testdb1"]
 print(db)
+
 
 data = {
     "Name": "Shreyash",

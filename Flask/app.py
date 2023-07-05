@@ -7,9 +7,9 @@ Flask is a popular web framework for building web applications and APIs in Pytho
 """
 
 """
-Cleint side:
+Client side: GET,POST -> Sending data
 GET -> Data is passed with help of URL by System to the server  eg.Google search -> search, Data Science
-POST -> Data is passed as a boby by System to the server  eg.Gmail login
+POST -> Data is passed as a body by System to the server  eg.Gmail login
 """
 
 app = Flask(__name__)
